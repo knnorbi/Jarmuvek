@@ -28,7 +28,7 @@ namespace Jarmuvek
 
         static public bool SzabadEAJarmu(Jarmu jarmu)
         {
-            IKiberelheto kiberelheto = jarmu as IKiberelheto;
+            ISzabad kiberelheto = jarmu as ISzabad;
             if(kiberelheto == null)
             {
                 return false;

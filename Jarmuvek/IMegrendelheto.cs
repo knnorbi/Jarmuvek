@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Jarmuvek
 {
-    interface IMegrendelheto
+    interface IMegrendelheto : ISzabad
     {
         int AlapAr { get; }
         int KmDij { get; }
-        bool Szabad { get; }
 
         int Megrendel(int km);
         void Visszaerekezik();

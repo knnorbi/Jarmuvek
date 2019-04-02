@@ -47,6 +47,8 @@
     <Compile Include="Busz.cs" />
     <Compile Include="IKiberelheto.cs" />
     <Compile Include="IMegrendelheto.cs" />
+    <Compile Include="ISzabad.cs" />
+    <Compile Include="Teherauto.cs" />
     <Compile Include="Jarmu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

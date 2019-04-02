@@ -23,6 +23,7 @@ namespace Jarmuvek
 
             jarmuveink[0] = new Auto("ABC-123", "Lada", "Niva 4x4", Szin.Feher);
             jarmuveink[1] = new Busz("DEF-456", "Ikarus", "260", Szin.Kek, 50, 5000, 200);
+            jarmuveink[2] = new Teherauto("NORBI-1", "IFA", "L60", Szin.Sarga, 20000, 500, 50000);
 
             JarmuvekKiir(jarmuveink);
 

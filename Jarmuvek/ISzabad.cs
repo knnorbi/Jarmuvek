@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Jarmuvek
 {
-    interface IKiberelheto : ISzabad
+    interface ISzabad
     {
-        int NapiDij { get; }
-
-        void Kiberel();
-        int Visszaad();
+        bool Szabad { get; }
     }
 }
