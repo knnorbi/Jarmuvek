@@ -22,7 +22,7 @@ namespace Jarmuvek
             Jarmu[] jarmuveink = new Jarmu[20];
 
             jarmuveink[0] = new Auto("ABC-123", "Lada", "Niva 4x4", Szin.Feher);
-            jarmuveink[1] = new Busz("DEF-456", "Ikarus", "260", Szin.Kek, 50);
+            jarmuveink[1] = new Busz("DEF-456", "Ikarus", "260", Szin.Kek, 50, 5000, 200);
 
             JarmuvekKiir(jarmuveink);
 
@@ -33,6 +33,18 @@ namespace Jarmuvek
             {
                 eztszeretnemkiberelni.Kiberel();
             }
+
+            IMegrendelheto eztszeretnemmegrendelni = jarmuveink[1] as Busz;
+            if (eztszeretnemmegrendelni != null)
+            {
+                for (int i = 0; i < 2; i++)
+                {
+                    int ar = eztszeretnemmegrendelni.Megrendel(200);
+                    string kiir = string.Format("200 km-re a busz {0} foirintba került.", ar);
+                    Console.WriteLine(kiir);
+                }
+            }
+
 
             Console.WriteLine(jarmuveink.Count(Jarmu.SzabadEAJarmu));
 

@@ -46,6 +46,7 @@
     <Compile Include="Auto.cs" />
     <Compile Include="Busz.cs" />
     <Compile Include="IKiberelheto.cs" />
+    <Compile Include="IMegrendelheto.cs" />
     <Compile Include="Jarmu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
